@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "AvenirLight";
+  src: local("AvenirLight"),
+    url(../assets/fonts/AvenirLight.ttf) format("truetype");
+  // url(../assets/fonts/AvenirLight.woff2) format("woff2"),
+  // url(../assets/fonts/AvenirLight.woff) format("woff");
+}
+
+@font-face {
+  font-family: "AvenirMedium";
+  src: local("AvenirMedium"),
+    url(../assets/fonts/AvenirMedium.ttf) format("truetype");
+  // url(../assets/fonts/AvenirMedium.woff2) format("woff2"),
+  // url(../assets/fonts/AvenirMedium.woff) format("woff");
+}
+
+body {
+  font-family: "AvenirLight";
+  color: #343434;
+}
+
+h1 {
+  font-family: "AvenirMedium";
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+@media only screen and (min-width: 48.1em) {
+  h1 {
+    font-size: 3.4rem;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  line-height: 1.8;
+}
