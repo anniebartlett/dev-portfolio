@@ -7,11 +7,11 @@
 }
 
 @font-face {
-  font-family: "AvenirMedium";
-  src: local("AvenirMedium"),
-    url(../assets/fonts/AvenirMedium.ttf) format("truetype");
-  // url(../assets/fonts/AvenirMedium.woff2) format("woff2"),
-  // url(../assets/fonts/AvenirMedium.woff) format("woff");
+  font-family: "AvenirBold";
+  src: local("AvenirBold"),
+    url(../assets/fonts/AvenirBold.ttf) format("truetype");
+  // url(../assets/fonts/AvenirBold.woff2) format("woff2"),
+  // url(../assets/fonts/AvenirBold.woff) format("woff");
 }
 
 body {
@@ -20,43 +20,45 @@ body {
 }
 
 h1 {
-  font-family: "AvenirMedium";
-}
-
-h1 {
-  font-size: 3rem;
+  font-family: "AvenirBold";
+  font-size: 5rem;
   font-weight: 300;
   letter-spacing: 0.5px;
   line-height: 1.2;
+  color: #f54449;
 }
 
 @media only screen and (min-width: 48.1em) {
-  h1 {
-    font-size: 3.4rem;
-  }
-}
-
-@media only screen and (min-width: 75em) {
   h1 {
     font-size: 4rem;
   }
 }
 
+@media only screen and (min-width: 75em) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
 h2 {
-  font-size: 2.4rem;
+  font-family: "AvenirBold";
+  font-size: 3.4rem;
   font-weight: 400;
+  color: #f54449;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-family: "AvenirBold";
+  font-size: 3rem;
+  color: #f54449;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 h5 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
