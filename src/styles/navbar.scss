@@ -1,16 +1,7 @@
 .navbar {
-  background-color: #150a33;
-}
-
-.navbar-icon {
-  height: 40px;
-  width: 40px;
-}
-
-.nav-menu-button:hover {
-  color: #f54449;
-}
-
-a:hover {
-  color: #f54449;
+  color: #150060;
+  font-family: "AvenirBold";
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }

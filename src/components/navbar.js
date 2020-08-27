@@ -1,15 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { motion } from "framer-motion";
 
-export default function Navbar({ fixed }) {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
-  return (
-    <nav className="navbar">
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between text-white relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg mb-3">
-        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+class Navbar extends Component {
+  render() {
+    return (
+      <nav className="navbar">
+        <div className="container px-4 py-4 mx-auto flex flex-wrap items-center justify-between m-6 w-full">
           <Link
             activeClass="active"
             to="home"
@@ -17,29 +13,10 @@ export default function Navbar({ fixed }) {
             smooth={true}
             duration={1000}
           >
-            <img
-              src={require("../assets/images/programmer.png")}
-              alt="home"
-              className="navbar-icon cursor-pointer m-3"
-            />
+            <p className="cursor-pointer">ANNIE BARTLETT</p>
           </Link>
 
-          <button
-            className="nav-menu-button text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            onClick={() => setNavbarOpen(!navbarOpen)}
-          >
-            <FontAwesomeIcon icon={faBars} />
-          </button>
-        </div>
-
-        <div
-          className={
-            "lg:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
-          }
-        >
-          <motion.div className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <div className="flex-row">
             <Link
               className="nav-item inline px-2 py-1 cursor-pointer"
               activeClass="active"
@@ -48,7 +25,18 @@ export default function Navbar({ fixed }) {
               smooth={true}
               duration={1000}
             >
-              <strong>About</strong>
+              ABOUT
+            </Link>
+
+            <Link
+              className="nav-item inline px-2 py-1 cursor-pointer"
+              activeClass="active"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <strong>PORTFOLIO</strong>
             </Link>
 
             <Link
@@ -59,22 +47,12 @@ export default function Navbar({ fixed }) {
               smooth={true}
               duration={1000}
             >
-              <strong>Contact</strong>
+              CONTACT
             </Link>
-          </motion.div>
+          </div>
         </div>
-      </div>
-    </nav>
-  );
+      </nav>
+    );
+  }
 }
-
-//<Link
-//  className="nav-item inline px-2 py-1 cursor-pointer"
-//  activeClass="active"
-//   to="portfolio"
-//   spy={true}
-//   smooth={true}
-//   duration={1000}
-// >
-//   <strong>Portfolio</strong>
-// </Link>
+export default Navbar;

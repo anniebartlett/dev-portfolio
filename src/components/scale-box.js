@@ -26,7 +26,7 @@ export const ScaleBox = ({
     show: {
       scale: 1,
       opacity: 1,
-      y: -50,
+      y: -100,
       transition,
     },
   };

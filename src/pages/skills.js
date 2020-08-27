@@ -4,8 +4,8 @@ import Button from "../components/button";
 class Skills extends Component {
   render() {
     return (
-      <div className="skills container">
-        <div className="mt-3 mb-3">
+      <div className="skills container pt-6 pb-32">
+        <div className="mt-3 mb-6">
           <h3>Skills</h3>
           <p className="leading-relaxed">
             Here's a selection of relevant languages and technologies that I
@@ -13,7 +13,7 @@ class Skills extends Component {
           </p>
         </div>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap mb-12">
           <div className="btn m-1 rounded">
             <Button name="HTML"></Button>
           </div>
