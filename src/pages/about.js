@@ -7,10 +7,10 @@ class About extends Component {
       <div className="about container px-4 pt-12 mx-auto">
         <h3>Hey I'm Annie.</h3>
         <div className="lg:flex">
-          <div>
+          <div className="about-me mr-12">
             <p className="leading-relaxed mb-6">
               After 7 years working in Fashion Merchandising at Asos, I decided
-              to retrain and embark a new journey as a developer.
+              to retrain and embark a new journey as a web developer.
             </p>
             <p className="leading-relaxed mb-6">
               Life took another turn and in Feb 2020 I gave birth to my little
@@ -18,7 +18,7 @@ class About extends Component {
             </p>
             <p className="leading-relaxed mb-6">
               I've always loved tech and design, so in April 2020 I made one of
-              the best decisions to take part in Le Wagon part-time bootcamp
+              the best decisions to take part in the Le Wagon part-time bootcamp
               whilst on maternity leave.
             </p>
             <p className="leading-relaxed mb-6">

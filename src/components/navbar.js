@@ -31,17 +31,6 @@ class Navbar extends Component {
             <Link
               className="nav-item inline px-2 py-1 cursor-pointer"
               activeClass="active"
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              duration={1000}
-            >
-              PORTFOLIO
-            </Link>
-
-            <Link
-              className="nav-item inline px-2 py-1 cursor-pointer"
-              activeClass="active"
               to="contact"
               spy={true}
               smooth={true}
@@ -56,3 +45,14 @@ class Navbar extends Component {
   }
 }
 export default Navbar;
+
+// <Link
+//   className="nav-item inline px-2 py-1 cursor-pointer"
+//   activeClass="active"
+//   to="portfolio"
+//   spy={true}
+//   smooth={true}
+//   duration={1000}
+// >
+//   PORTFOLIO
+// </Link>

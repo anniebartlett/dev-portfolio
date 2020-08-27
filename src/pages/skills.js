@@ -9,7 +9,7 @@ class Skills extends Component {
           <h3>Skills</h3>
           <p className="leading-relaxed">
             Here's a selection of relevant languages and technologies that I
-            have built good experience with:
+            have developed good experience with:
           </p>
         </div>
 
@@ -36,10 +36,31 @@ class Skills extends Component {
             <Button name="Node"></Button>
           </div>
           <div className="btn m-1 rounded">
+            <Button name="npm"></Button>
+          </div>
+          <div className="btn m-1 rounded">
+            <Button name="Yarn"></Button>
+          </div>
+          <div className="btn m-1 rounded">
             <Button name="Ruby on Rails"></Button>
           </div>
           <div className="btn m-1 rounded">
+            <Button name="PostgreSQL"></Button>
+          </div>
+          <div className="btn m-1 rounded">
+            <Button name="Activerecord"></Button>
+          </div>
+          <div className="btn m-1 rounded">
             <Button name="Git"></Button>
+          </div>
+          <div className="btn m-1 rounded">
+            <Button name="Heroku"></Button>
+          </div>
+          <div className="btn m-1 rounded">
+            <Button name="Cloudinary"></Button>
+          </div>
+          <div className="btn m-1 rounded">
+            <Button name="Figma"></Button>
           </div>
           <div className="btn m-1 rounded">
             <Button name="Photoshop"></Button>
