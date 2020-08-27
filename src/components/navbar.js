@@ -36,7 +36,7 @@ class Navbar extends Component {
               smooth={true}
               duration={1000}
             >
-              <strong>PORTFOLIO</strong>
+              PORTFOLIO
             </Link>
 
             <Link

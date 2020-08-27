@@ -9,8 +9,8 @@ class Footer extends Component {
       <div className="contact min-w-full px-6 mx-auto pt-32 pb-32">
         <div className="container mx-auto text-white">
           <h4>want to stay in touch?</h4>
-          <a href="mailto:anniebartltt@gmail.com?subject=Hello!">
-            <h5 className="hover:text-red-400">drop me an email</h5>
+          <a href="mailto:hello@anniebartlett.dev?subject=Hello!">
+            <h5 className="hover:text-red-400">hello@anniebartlett.dev</h5>
           </a>
           <p>or find me here:</p>
           <div className="links">
