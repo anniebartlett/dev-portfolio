@@ -4,8 +4,8 @@ import Skills from "../pages/skills";
 class About extends Component {
   render() {
     return (
-      <div className="about container px-4 pt-12 mx-auto">
-        <h3>Hey I'm Annie.</h3>
+      <div className="about container px-4 mx-auto">
+        <h3>About Me.</h3>
         <div className="lg:flex">
           <div className="about-me mr-12">
             <p className="leading-relaxed mb-6">
