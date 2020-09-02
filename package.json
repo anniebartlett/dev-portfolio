@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "node index.js && npm run build:style && react-scripts start && serve -s build",
+    "start": "node ./index.js && npm run build:style && react-scripts start && serve -s build",
     "build:style": "tailwind build src/styles/index.scss -o src/styles/tailwind.scss",
     "build": "react-scripts build",
     "test": "react-scripts test",
