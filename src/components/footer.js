@@ -12,6 +12,7 @@ class Footer extends Component {
           <a href="mailto:hello@anniebartlett.dev?subject=Hello!">
             <h5 className="hover:text-red-400">hello@anniebartlett.dev</h5>
           </a>
+          <br />
           <p>or find me here:</p>
           <div className="links">
             <div className="inline text-2xl px-1 py-1 m-1">

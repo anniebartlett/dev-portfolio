@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import Skills from "../pages/skills";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 class About extends Component {
   render() {
     return (
       <div className="about container px-4 mx-auto">
-        <h3>About Me.</h3>
+        <h3>About Me</h3>
         <div className="lg:flex">
           <div className="about-me mr-12">
+            <p className="leading-relaxed mb-6">
+              Hey, I'm Annie. I'm a full-stack web developer based in London.
+            </p>
             <p className="leading-relaxed mb-6">
               After 7 years working in Fashion Merchandising at Asos, I decided
               to retrain and embark a new journey as a web developer.
@@ -27,9 +32,18 @@ class About extends Component {
               norm!)
             </p>
             <p className="leading-relaxed mb-6">
-              I love building beautiful digital products, combining technology
+              I love making beautiful digital products, combining technology
               with creative ideas.
             </p>
+            <a
+              href={require("../assets/files/Annie-Bartlett-CV.pdf")}
+              download="Annie-Bartlett-CV"
+              className="no-underline hover:text-red-400"
+            >
+              <p className="hover:text-red-400">
+                <FontAwesomeIcon icon={faDownload} /> Download my resumé
+              </p>
+            </a>
           </div>
           <div className="lg:flex-shrink-0">
             <img
