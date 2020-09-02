@@ -3513,6 +3513,10 @@ video {
   background-color: rgba(112, 36, 89, var(--bg-opacity));
 }
 
+.bg-none{
+  background-image: none;
+}
+
 .bg-gradient-to-t{
   background-image: linear-gradient(to top, var(--gradient-color-stops));
 }
@@ -19179,28 +19183,24 @@ video {
 
 .select-none{
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
 
 .select-text{
   -webkit-user-select: text;
-     -moz-user-select: text;
       -ms-user-select: text;
           user-select: text;
 }
 
 .select-all{
   -webkit-user-select: all;
-     -moz-user-select: all;
       -ms-user-select: all;
           user-select: all;
 }
 
 .select-auto{
   -webkit-user-select: auto;
-     -moz-user-select: auto;
       -ms-user-select: auto;
           user-select: auto;
 }
@@ -25145,6 +25145,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .sm\:bg-none{
+    background-image: none;
   }
 
   .sm\:bg-gradient-to-t{
@@ -40813,28 +40817,24 @@ video {
 
   .sm\:select-none{
     -webkit-user-select: none;
-       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
 
   .sm\:select-text{
     -webkit-user-select: text;
-       -moz-user-select: text;
         -ms-user-select: text;
             user-select: text;
   }
 
   .sm\:select-all{
     -webkit-user-select: all;
-       -moz-user-select: all;
         -ms-user-select: all;
             user-select: all;
   }
 
   .sm\:select-auto{
     -webkit-user-select: auto;
-       -moz-user-select: auto;
         -ms-user-select: auto;
             user-select: auto;
   }
@@ -46714,6 +46714,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .md\:bg-none{
+    background-image: none;
   }
 
   .md\:bg-gradient-to-t{
@@ -62382,28 +62386,24 @@ video {
 
   .md\:select-none{
     -webkit-user-select: none;
-       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
 
   .md\:select-text{
     -webkit-user-select: text;
-       -moz-user-select: text;
         -ms-user-select: text;
             user-select: text;
   }
 
   .md\:select-all{
     -webkit-user-select: all;
-       -moz-user-select: all;
         -ms-user-select: all;
             user-select: all;
   }
 
   .md\:select-auto{
     -webkit-user-select: auto;
-       -moz-user-select: auto;
         -ms-user-select: auto;
             user-select: auto;
   }
@@ -68283,6 +68283,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .lg\:bg-none{
+    background-image: none;
   }
 
   .lg\:bg-gradient-to-t{
@@ -83951,28 +83955,24 @@ video {
 
   .lg\:select-none{
     -webkit-user-select: none;
-       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
 
   .lg\:select-text{
     -webkit-user-select: text;
-       -moz-user-select: text;
         -ms-user-select: text;
             user-select: text;
   }
 
   .lg\:select-all{
     -webkit-user-select: all;
-       -moz-user-select: all;
         -ms-user-select: all;
             user-select: all;
   }
 
   .lg\:select-auto{
     -webkit-user-select: auto;
-       -moz-user-select: auto;
         -ms-user-select: auto;
             user-select: auto;
   }
@@ -89852,6 +89852,10 @@ video {
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity));
+  }
+
+  .xl\:bg-none{
+    background-image: none;
   }
 
   .xl\:bg-gradient-to-t{
@@ -105520,28 +105524,24 @@ video {
 
   .xl\:select-none{
     -webkit-user-select: none;
-       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
 
   .xl\:select-text{
     -webkit-user-select: text;
-       -moz-user-select: text;
         -ms-user-select: text;
             user-select: text;
   }
 
   .xl\:select-all{
     -webkit-user-select: all;
-       -moz-user-select: all;
         -ms-user-select: all;
             user-select: all;
   }
 
   .xl\:select-auto{
     -webkit-user-select: auto;
-       -moz-user-select: auto;
         -ms-user-select: auto;
             user-select: auto;
   }
