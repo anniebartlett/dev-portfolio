@@ -23,7 +23,7 @@
     "tailwindcss": "^1.7.2"
   },
   "scripts": {
-    "start": "npm run build:style && react-scripts start",
+    "start": "npm run build:style && react-scripts start && node index.js",
     "build:style": "tailwind build src/styles/index.scss -o src/styles/tailwind.scss",
     "build": "react-scripts build",
     "test": "react-scripts test",
