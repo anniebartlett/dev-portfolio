@@ -28,14 +28,6 @@ class Navbar extends Component {
               ABOUT
             </Link>
 
-            <a
-              href={require("../assets/files/Annie-Bartlett-CV.pdf")}
-              target="blank"
-              className="nav-item inline px-2 py-1 cursor-pointer"
-            >
-              RESUMÉ
-            </a>
-
             <Link
               className="nav-item inline px-2 py-1 cursor-pointer"
               activeClass="active"
@@ -64,3 +56,11 @@ export default Navbar;
 // >
 //   PORTFOLIO
 // </Link>
+
+// <a
+//   href={require("../assets/files/Annie-Bartlett-CV.pdf")}
+//   target="blank"
+//   className="nav-item inline px-2 py-1 cursor-pointer"
+// >
+//   RESUMÉ
+// </a>
