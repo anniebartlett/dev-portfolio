@@ -1,14 +1,5 @@
 module.exports = {
-  purge: [
-    "./src/components/footer.js",
-    "./src/components/navbar.js",
-    "./src/pages/about.js",
-    "./src/pages/banner.js",
-    "./src/pages/portfolio.js",
-    "./src/pages/skills.js",
-    "./src/app.js",
-    "./src/index.js",
-  ],
+  purge: false,
   target: "relaxed",
   prefix: "",
   important: false,
