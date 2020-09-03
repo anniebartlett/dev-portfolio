@@ -29,7 +29,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "npm run build:style && serve -s build",
+    "start": "npm run build:style && react-scripts build",
     "build:style": "tailwind build src/styles/index.scss -o src/styles/tailwind.scss",
     "build": "react-scripts build",
     "test": "react-scripts test",
