@@ -18,7 +18,7 @@ class Navbar extends Component {
 
           <div className="flex-row">
             <Link
-              className="nav-item inline px-2 py-1 cursor-pointer"
+              className="nav-item inline pr-2 py-1 cursor-pointer"
               activeClass="active"
               to="about"
               spy={true}
@@ -27,6 +27,25 @@ class Navbar extends Component {
             >
               ABOUT
             </Link>
+
+            <Link
+              className="nav-item inline px-2 py-1 cursor-pointer"
+              activeClass="active"
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              PORTFOLIO
+            </Link>
+
+            <a
+              href={require("../assets/files/Annie-Bartlett-CV.pdf")}
+              target="blank"
+              className="nav-item inline px-2 py-1 cursor-pointer"
+            >
+              RESUMÉ
+            </a>
 
             <Link
               className="nav-item inline px-2 py-1 cursor-pointer"
@@ -45,22 +64,3 @@ class Navbar extends Component {
   }
 }
 export default Navbar;
-
-// <Link
-//   className="nav-item inline px-2 py-1 cursor-pointer"
-//   activeClass="active"
-//   to="portfolio"
-//   spy={true}
-//   smooth={true}
-//   duration={1000}
-// >
-//   PORTFOLIO
-// </Link>
-
-// <a
-//   href={require("../assets/files/Annie-Bartlett-CV.pdf")}
-//   target="blank"
-//   className="nav-item inline px-2 py-1 cursor-pointer"
-// >
-//   RESUMÉ
-// </a>
