@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <IntersectionObserver>
         <ScaleBox>
-          <div className="about container px-4 mx-auto">
+          <div className="about container px-4 mx-auto pt-20">
             <h3>About Me</h3>
             <div className="lg:flex">
               <div className="about-me mr-12">

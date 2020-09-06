@@ -1,9 +1,15 @@
 .home {
-  height: 90vh;
+  height: 100vh;
+}
+
+.banner-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-text {
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

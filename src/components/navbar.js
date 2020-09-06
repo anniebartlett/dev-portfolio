@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="container px-4 py-4 mx-auto flex flex-wrap items-center justify-between m-6 w-full">
+        <div className="container px-4 py-4 mx-auto flex flex-wrap items-center justify-between m-1 w-full">
           <Link
             activeClass="active"
             to="home"

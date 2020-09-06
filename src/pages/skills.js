@@ -4,7 +4,7 @@ import Button from "../components/button";
 class Skills extends Component {
   render() {
     return (
-      <div className="skills container pt-12 pb-32">
+      <div className="skills container pt-12 pb-20">
         <div className="mt-3 mb-6">
           <h3>Skills</h3>
           <p className="leading-relaxed">
