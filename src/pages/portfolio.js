@@ -10,7 +10,7 @@ class Portfolio extends Component {
       <IntersectionObserver>
         <ScaleBox>
           <div className="portfolio container mx-auto px-4 pt-20">
-            <h3>Stuff I've done</h3>
+            <h3>Portfolio</h3>
             <div className="md:flex lg:flex">
               <Card
                 img="lets-get-fizzical"
