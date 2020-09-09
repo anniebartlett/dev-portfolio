@@ -16,11 +16,22 @@ class Portfolio extends Component {
                 img="lets-get-fizzical"
                 name="Let's Get Fizzical!"
                 description="A create-your-own cocktail machine with basic CRUD functionality, and optional image upload"
+                github="anniebartlett/rails-mister-cocktail"
+                link="http://lets-get-fizzical.herokuapp.com"
               ></Card>
               <Card
                 img="plantastic"
                 name="Plantastic"
-                description="A marketplace app to rent out plants, with mapbox and search functionality"
+                description="A marketplace app to rent out plants, with pundit and search functionality"
+                github="Martin2251/Plantastic"
+                link="https://plantastic-martin2251.herokuapp.com/"
+              ></Card>
+              <Card
+                img="buybaby"
+                name="BuyBaby"
+                description="Currently working on an app for parents to swap & shop locally, with mapbox, pundit, search and a rich data scraper"
+                github="anniebartlett/BuyBaby"
+                link=""
               ></Card>
             </div>
           </div>
