@@ -24,14 +24,14 @@ class Portfolio extends Component {
                 name="Plantastic"
                 description="A marketplace app to rent out plants, with pundit and search functionality"
                 github="Martin2251/Plantastic"
-                link="https://plantastic-martin2251.herokuapp.com/"
+                link="https://plantastic-martin2251.herokuapp.com"
               ></Card>
               <Card
                 img="buybaby"
                 name="BuyBaby"
                 description="Currently working on an app for parents to swap & shop locally, with mapbox, pundit, search and a rich data scraper"
                 github="anniebartlett/BuyBaby"
-                link=""
+                link="https://buybaby.shop"
               ></Card>
             </div>
           </div>
