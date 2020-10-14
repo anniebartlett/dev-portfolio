@@ -29,7 +29,7 @@ class Portfolio extends Component {
               <Card
                 img="buybaby"
                 name="BuyBaby"
-                description="Currently working on an app for parents to swap & shop locally, with mapbox, pundit, search and a rich data scraper"
+                description="An app for parents to swap & shop locally, with mapbox, pundit, search and a rich data scraper"
                 github="anniebartlett/BuyBaby"
                 link="https://buybaby.shop"
               ></Card>
